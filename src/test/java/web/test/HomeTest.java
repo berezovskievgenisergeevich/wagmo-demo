@@ -28,7 +28,7 @@ public class HomeTest extends BaseTest {
     @Tags({@Tag("home"), @Tag("ui")})
     @DisplayName("Checking click 'Pet Parents' button")
     void checkClickPetParentsButton() {
-        new Home().clickForPetParents().getPageTitleElement().shouldHave(text("Pet care from head to tail"));
+        new Home().clickForPetParents().getPageTitleElement().shouldHave(text("Pet care from head to tail TEST-ERROR"));
     }
 
     @Test
